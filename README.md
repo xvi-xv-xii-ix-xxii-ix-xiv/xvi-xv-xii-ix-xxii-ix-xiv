@@ -1,3 +1,9 @@
+              
+     \|/      
+    (o o)     
+ooO--(_)--Ooo-
+
+
 Greetings! I am a seasoned full-stack developer with extensive experience in C/C++, Python, and Rust. I am passionate about tackling complex challenges, designing high-performance systems, and contributing to cutting-edge projects that drive innovation.
 
 ## Skills
