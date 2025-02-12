@@ -21,5 +21,3 @@ Greetings! I am a seasoned full-stack developer with extensive experience in C/C
 ### Leadership & Team Management
 - **Team Leadership & Coordination**: Experienced in leading and mentoring multidisciplinary teams of developers and engineers, while overseeing the end-to-end lifecycle of projects, from planning to successful execution.
 - **Cross-Functional Collaboration**: Proven ability to collaborate effectively with diverse teams, ensuring alignment with project goals, meeting deadlines, and delivering high-quality results that meet business needs.
-
-## Proj
