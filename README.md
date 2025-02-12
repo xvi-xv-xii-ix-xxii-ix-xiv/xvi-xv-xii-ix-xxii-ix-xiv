@@ -1,36 +1,5 @@
-```              
-fn main() {
-    // Developer information
-    let role = "full-stack developer";
-    let experience = vec!["C/C++", "Python", "Rust"];
-    let passion = vec!["tackling complex challenges", "designing high-performance systems", "contributing to cutting-edge projects"];
-
-    // Creating the developer profile
-    let developer_experience = Developer {
-        role,
-        experience,
-        passion,
-    };
-
-    // Displaying the introduction of the developer
-    developer_experience.introduce();
-}
-
-struct Developer<'a> {
-    role: &'a str,
-    experience: Vec<&'a str>,
-    passion: Vec<&'a str>,
-}
-
-impl<'a> Developer<'a> {
-    fn introduce(&self) {
-        println!("Greetings! I am a {} with extensive experience in {}.", self.role, self.experience.join(", "));
-        println!("I am passionate about {}, and contributing to cutting-edge projects that drive innovation.", self.passion.join(", "));
-    }
-}
-
-```
-
+Greetings! 
+I am a seasoned full-stack developer with extensive experience in C/C++, Python, and Rust. I am passionate about tackling complex challenges, designing high-performance systems, and contributing to cutting-edge projects that drive innovation.
 
 ```                  
                          .---..---.            
@@ -68,3 +37,9 @@ impl<'a> Developer<'a> {
 - **Cross-Functional Collaboration**: Proven ability to collaborate effectively with diverse teams, ensuring alignment with project goals, meeting deadlines, and delivering high-quality results that meet business needs.
 
 ---
+
+```
+     \|/      
+    (o o)     
+ooO--(_)--Ooo-
+```
