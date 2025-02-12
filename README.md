@@ -4,7 +4,7 @@ Hi there! I'm a full-stack developer with experience in C/C++, Python, and Rust.
 
 ### Software Development
 - **Languages**: C, Python, Rust (learning), PHP, HTML, CSS, Pascal
-- **Microcontrollers & Embedded Systems**: ARM (STM32, Cortex-M: 407, 411, 469), AVR (ATmega, ATtiny), Raspberry Pi (Raspbian, Ubuntu), GSM/GPRS (SimCom SIM808, Quectel MC60)
+- **Microcontrollers & Embedded Systems**: ARM (STM32, Cortex-M: 407, 411, 469, 479), AVR (ATmega, ATtiny), Raspberry Pi (Raspbian, Ubuntu), GSM/GPRS (SimCom SIM808, Quectel MC60)
 - **Networking**: Campus networks, Data Centers (Huawei, Eltex, Alcatel, HP, Nortel, Cisco)
 - **Telephony**: SIP, RTP, H.323, IP-PBX (Alcatel Omni PCX Enterprise), VoIP gateways (Mediant, Eltex)
 - **Team Leadership**: Managing developer and engineer teams, project planning and coordination
