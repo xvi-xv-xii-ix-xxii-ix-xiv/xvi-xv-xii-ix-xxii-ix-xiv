@@ -30,7 +30,6 @@ Hi there! I'm a full-stack developer with experience in C/C++, Python, and Rust.
 - **Networking**: Network protocols, including those for media content and data transmission, application protocols, and formats
 
 ### Other Skills
-- **Programming Languages**: C/C++, Pascal, Python, Rust, ASM, JavaScript, jQuery
 - **Blockchain**
 - **Graph Neural Networks (GNNs)**: PyTorch, DGL, NetworkX
 
