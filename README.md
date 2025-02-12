@@ -1,14 +1,38 @@
-Hi there! I'm a full-stack developer with experience in C/C++, Python, PHP, and Rust. I enjoy solving complex problems, creating efficient and scalable solutions, and contributing to interesting projects.
+Hi there! I'm a full-stack developer with experience in C/C++, Python, and Rust. I enjoy solving complex problems, creating efficient and scalable solutions, and contributing to interesting projects.
 
 ## Skills
 
-- **Programming Languages**: C, C++, Python, Rust
-- **Web Development**: Experience in both frontend and backend development
-- **Algorithms and Data Structures**: Proficient in various algorithms and data manipulation techniques
-- **Systems Programming**: Working with low-level solutions and interacting with operating systems
-- **Software Architecture**: Experience in designing software architectures using design patterns
-- **Databases**: Experience with SQL databases
-- **Microcontrollers**: Working with embedded systems and microcontroller development
+### Software Development
+- **Languages**: C, Python, Rust (learning), PHP, HTML, CSS, Pascal
+- **Microcontrollers & Embedded Systems**: ARM (STM32, Cortex-M: 407, 411, 469), AVR (ATmega, ATtiny), Raspberry Pi (Raspbian, Ubuntu), GSM/GPRS (SimCom SIM808, Quectel MC60)
+- **Networking**: Campus networks, Data Centers (Huawei, Eltex, Alcatel, HP, Nortel, Cisco)
+- **Telephony**: SIP, RTP, H.323, IP-PBX (Alcatel Omni PCX Enterprise), VoIP gateways (Mediant, Eltex)
+- **Team Leadership**: Managing developer and engineer teams, project planning and coordination
+
+### Python Ecosystem
+- **Libraries & Frameworks**: asyncio, numpy, pandas, scikit-learn, matplotlib, seaborn, PyTorch, DGL, networkX
+- **Telegram Bots**: Python
+
+### DevOps
+- **Containerization**: Docker, docker-compose
+
+### Databases
+- **Relational**: MySQL, PostgreSQL
+- **NoSQL**: Redis (In-memory key-value store)
+
+### Frontend Development
+- **Technologies**: HTML, CSS, JavaScript, Quart, Hypercorn, Tauri (learning), Leptos (learning), Slint (learning)
+
+### Backend Development
+- **Languages & Frameworks**: C, Python, Rust, PHP
+
+### Protocols & Formats
+- **Networking**: Network protocols, including those for media content and data transmission, application protocols, and formats
+
+### Other Skills
+- **Programming Languages**: C/C++, Pascal, Python, Rust, ASM, JavaScript, jQuery
+- **Blockchain**
+- **Graph Neural Networks (GNNs)**: PyTorch, DGL, NetworkX
 
 
 <!---
