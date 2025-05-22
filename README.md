@@ -5,7 +5,7 @@ I'm a **passionate full-stack developer** with deep expertise in **C/C++**, **Py
 
 [![C/C++](https://img.shields.io/badge/-C%2FC%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white&labelColor=004482&color=00599C)](https://isocpp.org/)
 [![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Rust](https://img.shields.io/badge/-Rust-CB5A2F?style=for-the-badge&logo=rust&logoColor=white&labelColor=333333)](https://www.rust-lang.org/)
+[![Rust](https://img.shields.io/badge/-Rust-E55B2C?style=for-the-badge&logo=rust&logoColor=white&labelColor=2B2B2B)](https://www.rust-lang.org/)
 [![PHP](https://img.shields.io/badge/-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
 [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -43,6 +43,11 @@ I'm a **passionate full-stack developer** with deep expertise in **C/C++**, **Py
 [![ATmega](https://img.shields.io/badge/ATmega-4A4A4A?style=for-the-badge&logo=arduino)](https://www.microchip.com/)
 [![ATtiny](https://img.shields.io/badge/ATtiny-4A4A4A?style=for-the-badge&logo=arduino)](https://www.microchip.com/)
 [![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white)](https://www.raspberrypi.org/)
+[![Debian](https://img.shields.io/badge/-Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white&labelColor=3A1F2A)](https://www.debian.org/)
+[![Ubuntu](https://img.shields.io/badge/-Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white&labelColor=3C2F2F)](https://www.ubuntu.com/)
+[![Windows](https://img.shields.io/badge/-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white&labelColor=1A2526)](https://www.microsoft.com/windows)
+[![DOS](https://img.shields.io/badge/-DOS-4A4A4A?style=for-the-badge&logo=windows-terminal&logoColor=white&labelColor=1C1C1C)](https://en.wikipedia.org/wiki/MS-DOS)
+[![RTIC](https://img.shields.io/badge/-RTIC-8B008B?style=for-the-badge&logo=cpu&logoColor=white&labelColor=2F2F2F)](https://rtic.rs/)
   
 ```
      \|/      
