@@ -1,57 +1,77 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Yngvarr — Software Engineer, Network & Telecom Infrastructure" src="assets/banner-light.svg" width="880">
-</picture>
+<img alt="Yngvarr — systems engineer and head of network infrastructure" src="assets/banner.svg" width="880">
 
-# Software Engineer · Network & Telecom Infrastructure
+# Yngvarr — systems engineer · head of network infrastructure
 
-**Rust · C · C++ · Python · Linux · Cisco · Huawei · SIP**
+**I write the algorithm, and I run the network it describes.**
 
-Two tracks that rarely meet in one person. I write systems software — `no_std` libraries
-for Cortex-M, graph algorithms, cryptographic and binary tooling — and I have spent years
-on the other end of the same stack, administering voice and network infrastructure and
-leading the department that ran campus and data-centre networking for an oil & gas
-company.
+[`erlang_e1`](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/erlang_e1) is the Erlang B channel
+sizing I have applied to live E1 trunks.
+[`xgraph`](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/xgraph)'s bridge detection finds exactly
+the single points of failure a campus topology review looks for. Both are published, versioned
+and used by other developers — and both came off the job.
 
-That range is the point: the code below is written by someone who has had to operate what
-it talks to.
+**In IT since 1997** · 8 published packages · **52 000+ downloads** · **24 engineers** led across
+**30+ sites**
+
+**Rust · C · C++ · Python · Linux** — **Cisco · Huawei · SIP · E1/PRI**  
+Remote, CET/EET · open to roles in the EU and to work with companies across RU/CIS ·
+**[yngvarr.dev@gmail.com](mailto:yngvarr.dev@gmail.com)**
+
+<!-- TODO: add one line on working languages and English level — for EU remote roles this is
+     the first filter a recruiter applies, and right now there is nothing here to pass it. -->
 
 ---
 
-## Infrastructure & telecom
+## Where the two tracks meet
 
-- **Head of network infrastructure department** — campus and data-centre networking and
-  structured cabling systems (SCS). Led a team of ** > 20
-  engineers** across ** > 30 sites**, operating a switching estate of several thousand
-  devices.
-- **Voice and telecom administration** — IP-PBX platforms, voice gateways and session
-  border controllers: AudioCodes Mediant, Cisco, Huawei, Eltex, Nortel, Alcatel.
-- **Protocols and dimensioning** — SIP, RTP, H.323, E1/PRI trunking, and the traffic
-  engineering behind capacity planning.
+Plenty of engineers have one of these tracks. What is rare is the edge between them — and every
+crate below sits on it.
 
-The two tracks feed each other. [`erlang_e1`](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/erlang_e1)
-implements the Erlang B channel sizing I have applied to real voice trunks;
-[`xgraph`](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/xgraph)'s bridge detection finds
-exactly the single points of failure a campus topology review looks for.
+- **Traffic engineering → code.** Dimensioning voice trunks against a target blocking probability
+  is a daily telecom task; `erlang_e1` is that calculation, packaged and published.
+- **Topology review → code.** Finding the one link whose failure splits a campus network is
+  exactly a graph bridge; `xgraph` computes bridges, betweenness centrality and communities on
+  graphs of that shape.
+- **Trust boundary → code.** `huginn` validates and sanitizes input at the boundary, written by
+  someone who has seen what actually arrives at a production network edge.
 
 ---
 
 ## Open source
 
-Seven crates on [crates.io](https://crates.io/users/xvi-xv-xii-ix-xxii-ix-xiv) and one
-package on [PyPI](https://pypi.org/project/pqcrypt/) — **~50 000 downloads** in total.
-Published, versioned, documented, and used by other developers.
+Seven crates on [crates.io](https://crates.io/users/xvi-xv-xii-ix-xxii-ix-xiv) and one package on
+[PyPI](https://pypi.org/project/pqcrypt/) — **52 000+ downloads** in total, all documented and
+maintained.
 
-| Project | What it is | Published | Downloads |
+| Project | What it is | Latest release | Downloads |
 | --- | --- | --- | ---: |
-| [xgraph](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/xgraph) | Graph algorithms — Dijkstra, Kosaraju, Brandes centrality, Leiden communities, bridge detection — over homogeneous graphs and heterogeneous multigraphs | crates.io 2.1 | 39 000+ |
-| [fibonacci_heap](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/fibonacci_heap) | Fibonacci heap with amortised O(1) `decrease-key`, cascading cuts and link operations | crates.io 1.1 | 5 000+ |
-| [huginn](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/huginn) | Input sanitization and validation at the trust boundary, with a typed validator pipeline | crates.io 1.0 | 1 700+ |
-| [bearingpro](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/bearingpro) | Maritime navigation: true and magnetic bearings, deviation, course conversion | crates.io 0.12 | 1 100+ |
-| [erlang_e1](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/erlang_e1) | Erlang B traffic engineering — sizing E1 voice channels against a target blocking probability | crates.io 0.9 | 1 100+ |
-| [ourobuf](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/ourobuf) | `no_std` circular buffer with constant-time operations for allocator-free targets | crates.io 0.1 | 862 |
-| [patternhunt](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/patternhunt) | Filesystem search: globs, brace expansion, extglobs, regex and metadata predicates, sync or streaming | crates.io 0.4 | 828 |
-| [pqcrypt](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/pqcrypt) | Post-quantum file encryption and signing CLI — ML-KEM (NIST FIPS 203) and ML-DSA (FIPS 204), hybrid encrypt-then-sign | PyPI 1.0 | — |
+| [xgraph](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/xgraph) | Graph algorithms — Dijkstra, Kosaraju, Brandes centrality, Leiden communities, bridge detection — over homogeneous graphs and heterogeneous multigraphs | 3.0 · Aug 2026 | 41 500+ |
+| [fibonacci_heap](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/fibonacci_heap) | Fibonacci heap with amortised O(1) `decrease-key`, cascading cuts and link operations | 1.1 · Apr 2026 | 5 000+ |
+| [huginn](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/huginn) | Input sanitization and validation at the trust boundary, with a typed validator pipeline | 1.0 · Apr 2025 | 1 700+ |
+| [bearingpro](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/bearingpro) | Maritime navigation — true and magnetic bearings, deviation, course conversion | 0.12 · Aug 2026 | 1 100+ |
+| [erlang_e1](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/erlang_e1) | Erlang B traffic engineering — sizing E1 voice channels against a target blocking probability | 0.9 · Oct 2024 | 1 100+ |
+| [ourobuf](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/ourobuf) | `no_std` circular buffer with constant-time operations for allocator-free targets | 0.1 · Jan 2025 | 860+ |
+| [patternhunt](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/patternhunt) | Filesystem search — globs, brace expansion, extglobs, regex and metadata predicates, sync or streaming | 0.4 · Aug 2025 | 830+ |
+
+**Newest —** [`pqcrypt`](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/pqcrypt): post-quantum file
+encryption and signing from the command line. ML-KEM (NIST FIPS 203) and ML-DSA (FIPS 204),
+hybrid encrypt-then-sign. Published on PyPI.
+
+---
+
+## Infrastructure & telecom
+
+- **Head of network infrastructure department** — campus and data-centre networking and structured
+  cabling systems (SCS) for an oil & gas company. **24 engineers** across **30+ sites**, operating
+  a switching estate of several thousand devices.
+- **Voice and telecom administration** — IP-PBX platforms, voice gateways and session border
+  controllers: AudioCodes Mediant, Cisco, Huawei, Eltex, Nortel, Alcatel.
+- **Protocols and dimensioning** — SIP, RTP, H.323, E1/PRI trunking, and the traffic engineering
+  behind capacity planning.
+
+<!-- TODO: add two result lines here — what changed while you ran it, not just the size of the
+     estate. The shape that works: "consolidated N sites onto a single SCS standard in M months",
+     "cut mean time to restore from X to Y". One verifiable number beats the whole vendor list. -->
 
 ---
 
@@ -79,6 +99,9 @@ Published, versioned, documented, and used by other developers.
 
 ## Contact
 
-**[yngvarr.dev@gmail.com](mailto:yngvarr.dev@gmail.com)**
+**[yngvarr.dev@gmail.com](mailto:yngvarr.dev@gmail.com)** · Remote, CET/EET
 
 Open to remote roles in the EU and to work with companies across RU/CIS.
+
+<!-- TODO: link a CV in PDF (drop it in this repo) and a LinkedIn profile. A recruiter needs a
+     file they can forward; right now there is nothing to forward. -->
