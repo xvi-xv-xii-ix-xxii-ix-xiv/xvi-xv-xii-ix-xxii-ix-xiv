@@ -15,10 +15,6 @@ and used by other developers — and both came off the job.
 
 **Rust · C · C++ · Python · Linux** — **Cisco · Huawei · SIP · E1/PRI**  
 Remote, CET/EET · open to roles in the EU and to work with companies across RU/CIS ·
-**[yngvarr.dev@gmail.com](mailto:yngvarr.dev@gmail.com)**
-
-<!-- TODO: add one line on working languages and English level — for EU remote roles this is
-     the first filter a recruiter applies, and right now there is nothing here to pass it. -->
 
 ---
 
@@ -69,10 +65,6 @@ hybrid encrypt-then-sign. Published on PyPI.
 - **Protocols and dimensioning** — SIP, RTP, H.323, E1/PRI trunking, and the traffic engineering
   behind capacity planning.
 
-<!-- TODO: add two result lines here — what changed while you ran it, not just the size of the
-     estate. The shape that works: "consolidated N sites onto a single SCS standard in M months",
-     "cut mean time to restore from X to Y". One verifiable number beats the whole vendor list. -->
-
 ---
 
 ## Engineering focus
@@ -102,6 +94,3 @@ hybrid encrypt-then-sign. Published on PyPI.
 **[yngvarr.dev@gmail.com](mailto:yngvarr.dev@gmail.com)** · Remote, CET/EET
 
 Open to remote roles in the EU and to work with companies across RU/CIS.
-
-<!-- TODO: link a CV in PDF (drop it in this repo) and a LinkedIn profile. A recruiter needs a
-     file they can forward; right now there is nothing to forward. -->
