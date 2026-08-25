@@ -1,4 +1,8 @@
-<img alt="Yngvarr — systems engineer and head of network infrastructure" src="assets/banner.svg" width="880">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img alt="Yngvarr — systems engineer and head of network infrastructure" src="assets/banner-light.svg" width="880">
+</picture>
 
 # Yngvarr — systems engineer · head of network infrastructure
 
