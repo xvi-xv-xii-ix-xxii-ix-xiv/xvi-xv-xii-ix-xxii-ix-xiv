@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="Yngvarr — systems engineer and head of network infrastructure. Two communities joined by a single bridge edge carrying 30 of the 55 shortest paths.">
+  <style>
+    .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace}
+    .lbl{font-size:10px;fill:#9BA8B6;paint-order:stroke;stroke:#0D1117;
+         stroke-width:3px;stroke-linejoin:round}
+    .cap{font-size:10px;letter-spacing:2.4px;fill:#8B949E}
+    .eA{stroke:#79C0FF;stroke-width:1.6;fill:none;opacity:.55}
+    .eB{stroke:#D2A8FF;stroke-width:1.6;fill:none;opacity:.55}
+    .br{stroke:#FF7B4F;stroke-width:3;stroke-dasharray:8 6;stroke-linecap:round}
+  </style>
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#161C24" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="fade" cx="50%" cy="50%" r="62%">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/>
+      <stop offset=".55" stop-color="#fff" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="gm"><rect x="0" y="0" width="1280" height="640" fill="url(#fade)"/></mask>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="11"/>
+    </filter>
+    <filter id="glow" filterUnits="userSpaceOnUse" x="0" y="0" width="1280" height="640">
+      <feGaussianBlur stdDeviation="4.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1280" height="640" fill="#0D1117"/>
+  <rect x="0" y="182" width="1280" height="458" fill="url(#g)" mask="url(#gm)"/>
+
+  <g class="m">
+    <text x="80" y="104" font-size="62" letter-spacing="18" fill="#E6EDF3">YNGVARR</text>
+    <g transform="translate(602,66) scale(0.019653)" fill="#8B949E" opacity=".6"><path d="M205.0 1649.0 0.0 1730.0V1669.0L41.0 1653.0V127.0L0.0 143.0V82.0L205.0 0.0V61.0L164.0 78.0V1604.0L205.0 1587.0ZM1858.0 1120.0 1636.0 1266.0 1247.0 971.0V1604.0L1288.0 1587.0V1649.0L1083.0 1730.0V1669.0L1124.0 1653.0V879.0L659.0 526.0L537.0 610.0L514.0 571.0L735.0 426.0L1124.0 719.0V127.0L1083.0 143.0V82.0L1288.0 0.0V61.0L1247.0 78.0V811.0L1712.0 1163.0L1835.0 1081.0ZM3173.0 88.0 3064.0 180.0 2948.0 124.0 2278.0 848.0V1604.0L2319.0 1587.0V1649.0L2114.0 1730.0V1669.0L2155.0 1653.0V127.0L2114.0 143.0V82.0L2319.0 0.0V61.0L2278.0 78.0V786.0L2999.0 8.0ZM4382.0 580.0 4308.0 629.0V1604.0L4349.0 1587.0V1649.0L4144.0 1730.0V1669.0L4185.0 1653.0V596.0L3591.0 223.0V1604.0L3632.0 1587.0V1649.0L3427.0 1730.0V1669.0L3468.0 1653.0V147.0L3444.0 131.0L3552.0 39.0ZM5971.0 571.0 5862.0 663.0 5719.0 594.0 5360.0 829.0V1604.0L5401.0 1587.0V1649.0L5196.0 1730.0V1669.0L5237.0 1653.0V911.0L4799.0 1200.0L4625.0 1120.0L4734.0 1028.0L4877.0 1098.0L5237.0 860.0V127.0L5196.0 143.0V82.0L5401.0 0.0V61.0L5360.0 78.0V778.0L5797.0 491.0ZM7007.0 489.0 6370.0 199.0V911.0ZM7212.0 1513.0 6991.0 1659.0 6370.0 1100.0V1604.0L6411.0 1587.0V1649.0L6206.0 1730.0V1669.0L6247.0 1653.0V141.0L6223.0 131.0L6331.0 39.0L7161.0 438.0L6403.0 942.0L7067.0 1556.0L7189.0 1474.0Z"/></g>
+    <rect x="84" y="126" width="92" height="4" fill="#FF7B4F"/>
+    <text x="80" y="162" font-size="25" fill="#9BA8B6">systems engineer · head of network infrastructure</text>
+    <text x="1200" y="104" font-size="19" text-anchor="end" fill="#E6EDF3">20+ years in production networks</text>
+    <text x="1200" y="134" font-size="19" text-anchor="end" fill="#9BA8B6">7 packages · 52 000+ downloads</text>
+    <text x="1200" y="164" font-size="19" text-anchor="end" fill="#9BA8B6">24 engineers · 30+ sites</text>
+
+    <g transform="translate(-27,80) scale(1.75)">
+    <ellipse cx="206" cy="183" rx="80" ry="83" fill="#79C0FF" opacity="0.13" filter="url(#soft)"/>
+    <ellipse cx="530" cy="181" rx="106" ry="79" fill="#D2A8FF" opacity="0.13" filter="url(#soft)"/>
+    <text class="cap" x="200" y="99" text-anchor="middle" fill="#79C0FF">SYSTEMS CODE</text>
+    <path class="eA" d="M206 126 L150 160 M150 160 L166 224 M166 224 L228 240 M228 240 L262 180 M262 180 L206 126 M206 126 L228 240 M150 160 L262 180 M206 126 L166 224"/>
+    <circle cx="206" cy="126" r="6.0" fill="#79C0FF" stroke="#0D1117" stroke-width="1.6"/><circle cx="150" cy="160" r="5.8" fill="#79C0FF" stroke="#0D1117" stroke-width="1.6"/><circle cx="166" cy="224" r="4.8" fill="#79C0FF" stroke="#0D1117" stroke-width="1.6"/><circle cx="228" cy="240" r="5.8" fill="#79C0FF" stroke="#0D1117" stroke-width="1.6"/>
+    <circle cx="262" cy="180" r="13.5" fill="#FF7B4F" opacity=".14"/><circle cx="262" cy="180" r="9.5" fill="#0D1117" stroke="#FF7B4F" stroke-width="2.3"/>
+    <text class="lbl" x="262" y="202" text-anchor="middle" fill="#E6EDF3">algorithms</text>
+    <g>
+      <text class="cap" x="530" y="99" text-anchor="middle" fill="#D2A8FF">LIVE INFRASTRUCTURE</text>
+      <path class="eB" d="M448 180 L498 128 M498 128 L556 140 M556 140 L612 178 M612 178 L578 234 M578 234 L502 230 M502 230 L448 180 M498 128 L502 230 M556 140 L578 234"/>
+      <circle cx="498" cy="128" r="7.5" fill="#D2A8FF" stroke="#0D1117" stroke-width="1.6"/><circle cx="556" cy="140" r="6.5" fill="#D2A8FF" stroke="#0D1117" stroke-width="1.6"/><circle cx="612" cy="178" r="4.2" fill="#D2A8FF" stroke="#0D1117" stroke-width="1.6"/><circle cx="578" cy="234" r="6.5" fill="#D2A8FF" stroke="#0D1117" stroke-width="1.6"/><circle cx="502" cy="230" r="7.5" fill="#D2A8FF" stroke="#0D1117" stroke-width="1.6"/>
+      <circle cx="448" cy="180" r="13.6" fill="#FF7B4F" opacity=".14"/><circle cx="448" cy="180" r="9.6" fill="#0D1117" stroke="#FF7B4F" stroke-width="2.3"/>
+      <text class="lbl" x="448" y="202" text-anchor="middle" fill="#E6EDF3">topology</text>
+    </g>
+    <g>
+      <line x1="262" y1="180" x2="448" y2="180" stroke="#0D1117" stroke-width="6"/>
+      <g filter="url(#glow)"><line class="br" x1="262" y1="180" x2="448" y2="180"/></g>
+    </g>
+    
+    <text x="355" y="160" font-size="8.5" text-anchor="middle" fill="#8B949E">edge betweenness 30/55</text>
+  </g>
+
+    <text x="323" y="562" font-size="17" text-anchor="middle" fill="#9BA8B6">Rust · C · C++ · no_std · STM32 · PQC</text>
+    <text x="900" y="562" font-size="17" text-anchor="middle" fill="#9BA8B6">SIP · E1/PRI · campus · DC · IP-PBX · SBC</text>
+    <text x="640" y="610" font-size="16" text-anchor="middle" fill="#8B949E">nodes 11 · edges 17 · diameter 6 · bridges 1 · communities 2 · max betweenness 0.56</text>
+  </g>
+</svg>
